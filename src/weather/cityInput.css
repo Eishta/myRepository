@@ -1,0 +1,54 @@
+.input-city {
+  margin-bottom: 40px;
+  }
+  .autocomplete{
+    font-size: 2rem;
+    width: 80%;
+    height: 80%;
+    margin-left: 200px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+  }
+  .input-city button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #930E0E;
+    transition: background 0.3s ease-in-out;
+  }
+   
+  .input-city button:hover {
+    background: #240202;
+  }
+ 
+  @media screen and (max-width: 700px) {
+    .input-city .autocomplete {
+      flex-direction: column;
+    }
+     
+    .input-city .autocomplete Autocomplete,
+    .input-city button {
+      width: 100%;
+    }
+   
+    .input-city button {
+      margin: 20px 0 0 0;
+    }
+  }
+  @media (min-width: 500px) and (min-height: 400px) {
+    .input-city .autocomplete Autocomplete,
+    {
+      width: 80%;
+      height: 50%
+    }
+}
+
+@media (min-width: 500px) and (min-height: 301px) {
+  .input-city .autocomplete Autocomplete,
+  {
+    width: 80%;
+    height: 30%
+  }
+}
